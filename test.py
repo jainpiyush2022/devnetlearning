@@ -11,7 +11,7 @@ y=2
 z=x+y
 print(z)
 # New feature added added in master
-t = x*y
+t = x*y*x
 print(t)
 # FeatureY
 s = x-y

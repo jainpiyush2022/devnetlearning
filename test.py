@@ -5,3 +5,8 @@ elif 2>1:
     print("1 is smaller than 2")
 else:
     print("2 is smaller than 1")
+#FeatureX 
+x=1
+y=2
+z=x+y
+print(z)

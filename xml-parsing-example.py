@@ -1,3 +1,4 @@
+# This example parses the xml file got from CIMC to check the HDD status and errors.
 import xmltodict
 
 with open('sample.xml') as stream:

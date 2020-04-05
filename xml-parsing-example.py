@@ -1,7 +1,7 @@
 # This example parses the xml file got from CIMC to check the HDD status and errors.
 import xmltodict
 
-with open('sample.xml') as stream:
+with open('xml-file-sample.xml') as stream:
     xml = xmltodict.parse(stream.read())
     
     hdds = xml['configResolveClass']['outConfigs']['storageLocalDiskProps']
